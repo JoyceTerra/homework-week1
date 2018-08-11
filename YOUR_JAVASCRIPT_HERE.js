@@ -12,23 +12,26 @@ var hero = {
 
 //Game logic functions
 
+//Resting
 function rest(obj){
     // const inn = this;
     var buttonRest = document.getElementById('inn');
 
     buttonRest.onclick = function(){
         hero.health = 10;
-        console.log( hero.health )
     }
     obj.health = 10
     return obj;
 }
 
-
-function pickUpItem(){
-//pickUpItem function takes a hero-like object as the first argument and an object as the second argument
-// equipWeapon function takes a hero-like object as an argument
-// And reassigns the `weapon` property to the first element of the inventory array
+//Picking up items
+function pickUpItem(obj1, obj2){
+    var buttonPickUp = document.getElementById('dagger');
+    // console.log(buttonPickUp)
+    // buttonPickUp.onclick = function(){
+    //     obj1.inventory.push(dagger, 2);
+    }
+    obj1.inventory.push(obj2);
 }
 
 function equipWeapon(){}

@@ -1,0 +1,20 @@
+#btn-rest{
+    padding: 70px;
+    display: inline;
+}
+
+#btn-pickUp{
+   
+    padding: 70px;
+    display: inline;
+}
+
+#btn-equip{
+    padding: 70px;
+    display: inline;
+}
+
+.btns{
+    height: 70px;
+    width:  200px;;
+}

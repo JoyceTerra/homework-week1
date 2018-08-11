@@ -3,13 +3,15 @@
     <meta charset="utf-8">
     <title>Mocha Tests</title>
     <link href="https://unpkg.com/mocha@4.0.1/mocha.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- YOUR HTML HERE -->
-  <div><img id="inn" src="" alt="" onclick="" ></div>
-
-
-
+  <!-- //onClick="rest.bind(this)()"  -->
+  <div id="btn-rest"><img id="inn"   class="btns" src="images/btn-rest.png" alt="Rest"  ></div>
+  <div id="btn-pickUp"><img id="dagger"   class="btns" src="images/btn-dagger.png" alt="Dagger"  ></div>
+  <div id="btn-equip"><img id="equip"   class="btns" src="images/btn-equip.png" alt="Equip"  ></div>
+<br>
   <!-- I RECOMMEND YOU LEAVE THE REST UNTOUCHED -->
   <button onclick="mocha.checkLeaks(); mocha.run();">Run the tests!</button>
   <div id="mocha"></div>

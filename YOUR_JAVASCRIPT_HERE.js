@@ -9,3 +9,11 @@ var hero = {
     }
 }
 
+function rest(){}
+
+function pickUpItem(){}
+
+function equipWeapon(){}
+
+
+

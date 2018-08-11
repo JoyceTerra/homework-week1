@@ -1,3 +1,4 @@
+//Hero Object
 var hero = {
     name: ' Joy',
     heroic: true,
@@ -9,7 +10,14 @@ var hero = {
     }
 }
 
-function rest(){}
+//Game logic functions
+
+function rest(obj){
+    obj.health = 10;
+    return obj;
+}
+
+
 
 function pickUpItem(){}
 
